@@ -1,0 +1,52 @@
+Create a database in sql server named “Trade”, 
+and create  tables “Client_Table”, “EnergyS_Table”,
+“Price_Table”, “Users_Table”
+in newly created sql database.
+
+
+"Client_Table" :
+
+Id (PK, int, not null)
+UserName (varchar(500), null)
+Created Userid (int, null)
+timestamp (datetime, null)
+Fiscal Code (varchar(500), null)
+UserAddress (varchar(500), null)
+UserType (varchar(500), null)
+Produced energy (varchar(500), null)
+Consumed Energy (varchar(500), null)
+
+“EnergyS_Table”:
+
+Transaction id (PK, int, not null)
+Name (varchar(500), null)
+Producer (int, null)
+timestamp (datetime, null)
+Fiscal Code (varchar(500), null)
+Quantity Energy (varchar(500), null)
+Productname (varchar(500), null)
+Select Distance (varchar(500), null)
+Select_DM_Per_Km (varchar(500), null)
+Cost (real, null)
+
+“Price_Table” :
+
+ppld (PK, int, not null)
+Distance (varchar(500), null)
+Per_km_Price (varchar(500), null)
+Createdbyuserid (int, null)
+
+
+“Users_Table”  :
+
+Userid (PK, int, not null)
+UserName (varchar(500), null)
+Pwd (varchar(500), null)
+Role (varchar(50), null)
+Created Userid (int, null)
+Fiscal Code (varchar(500), null)
+UserAddress (varchar(500), null)
+UserType (varchar(500), null)
+Produced Energy (varchar(500), null)
+Consumed Energy (varchar(500), null)
+
