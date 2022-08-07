@@ -2,7 +2,7 @@
 ## SQL Database
 ### Energy Sold Table
 
-```code
+```sql
 CREATE DATABASE Trade
 
 USE [Trade]
@@ -36,7 +36,7 @@ CREATE TABLE [dbo].[EnergyS_Table](
 
 ### Client Table
 
-```code
+```sql
 GO
 
 SET ANSI_NULLS ON
@@ -66,7 +66,7 @@ CREATE TABLE [dbo].[Client_Table](
 ### Users_Table
 
 
-```code
+```sql
 GO
 SET ANSI_PADDING OFF
 GO
@@ -97,7 +97,7 @@ CREATE TABLE [dbo].[Users_Table](
 ```
 ### Price_Table
 
-```
+```sql
 GO
 SET ANSI_PADDING OFF
 GO
